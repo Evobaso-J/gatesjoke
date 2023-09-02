@@ -19,4 +19,8 @@ export default defineNuxtConfig({
     ],
   },
   ssr: false,
+  modules: ["nuxt-quasar-ui"],
+  quasar: {
+    sassVariables: true,
+  },
 });
