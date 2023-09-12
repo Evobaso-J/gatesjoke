@@ -7,5 +7,3 @@
     outlined
   />
 </template>
-
-<script lang="ts" setup></script>
