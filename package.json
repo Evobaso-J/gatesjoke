@@ -7,12 +7,16 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "prepare": "husky install"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "@intlify/unplugin-vue-i18n": "^0.12.3",
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.3",
+    "husky": "^8.0.3",
     "nuxt": "^3.6.5",
     "nuxt-quasar-ui": "^2.0.5",
     "sass": "^1.66.1",
